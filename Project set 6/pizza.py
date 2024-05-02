@@ -19,6 +19,7 @@ else:
         except FileNotFoundError:
             print("File not found")
             sys.exit()    
+            
     else:
         print("Not a csv File")
         sys.exit()
