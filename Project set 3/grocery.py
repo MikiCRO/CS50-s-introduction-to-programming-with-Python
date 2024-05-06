@@ -20,7 +20,7 @@ except EOFError:
             count=grocery.count(line)     #counting lines
             if count>1:
                 print(f"{count} {line}", end="")
-            elif count==1:
+            elif count==1 :
                 print(f"1 {line}", end="")
 
         with open("grocery.txt", "w") as file:
