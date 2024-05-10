@@ -8,7 +8,6 @@ if len (sys.argv) <2 :
 elif len (sys.argv) >2 :
     print("To many command line arguments")
     sys.exit()
-    
 else:
     if sys.argv[1].endswith(".csv"):
         try:
@@ -23,6 +22,7 @@ else:
     else:
         print("Not a csv File")
         sys.exit()
+    
             
             
             
